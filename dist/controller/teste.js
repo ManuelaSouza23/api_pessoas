@@ -13,8 +13,5 @@ let pessoa3 = new Pessoa_1.Pessoa('Garfield', '222222222', new Date(1978, 6, 19)
 pessoa3.comer();
 pessoa3.comerPrato("lasanha");
 console.log("\n");
-pessoa.mostraPessoa();
-pessoa2.mostraPessoa();
-pessoa3.mostraPessoa();
-');
+pessoa.cadastroPessoa(pessoa);
 //# sourceMappingURL=teste.js.map

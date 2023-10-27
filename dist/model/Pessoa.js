@@ -80,11 +80,11 @@ class Pessoa {
         console.log(`${this.nome} fala: ${_frase}`);
     }
     andar() {
-        console.log(`${this.nome} caminhou ${quilometros} quilometros`);
+        console.log(`${this.nome} esta caminhando`);
     }
     andarQuilometros(quilometros) {
         setTimeout(() => {
-            console.log(`${this.nome} está comendo ...`);
+            console.log(`${this.nome} caminhou ${quilometros} quilometros`);
         }, 3000);
     }
     comer() {
@@ -92,6 +92,13 @@ class Pessoa {
     }
     comerPrato(prato) {
         console.log(`${this.nome} está comendo ${prato}`);
+    }
+    /**
+   * CRUID
+   */
+    cadastroPessoa(bananinha) {
+        //persistindo os dados
+        console.log(`${bananinha.nome} cadastrado(a) com sucesso`);
     }
 }
 exports.Pessoa = Pessoa;

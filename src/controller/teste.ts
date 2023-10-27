@@ -22,6 +22,4 @@ pessoa3.comerPrato("lasanha");
 
 console.log("\n");
 
-pessoa.mostraPessoa();
-pessoa2.mostraPessoa();
-pessoa3.mostraPessoa();')
+pessoa.cadastroPessoa (pessoa);

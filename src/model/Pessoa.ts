@@ -116,12 +116,12 @@
         }
           
         public andar (): void {
-            console.log(`${this.nome} caminhou ${quilometros} quilometros`);
+            console.log(`${this.nome} esta caminhando`);
         }
 
         public andarQuilometros(quilometros: number): void {
             setTimeout(()=> {
-                console.log(`${this.nome} está comendo ...`);
+                console.log(`${this.nome} caminhou ${quilometros} quilometros`);
             }, 3000);
         }
 
@@ -132,8 +132,21 @@
         public comerPrato(prato: string): void {
             console.log(`${this.nome} está comendo ${prato}`);
           }
-        }
 
+
+          /**
+         * CRUID
+         */
+
+         cadastroPessoa(bananinha:Pessoa) {
+            //persistindo os dados
+            console.log(`${bananinha.nome} cadastrado(a) com sucesso`);
+            
+        }
+        }
+    
+        
+        
 
 
 
